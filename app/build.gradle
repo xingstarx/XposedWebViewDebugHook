@@ -4,11 +4,11 @@ android {
     compileSdkVersion 22
     buildToolsVersion '25.0.2'
     defaultConfig {
-        applicationId 'just.trust.me'
+        applicationId 'me.star.webview'
         minSdkVersion 16
         targetSdkVersion 22
-        versionCode 3
-        versionName '.3'
+        versionCode 100
+        versionName '1.0.0'
     }
 
     buildTypes {

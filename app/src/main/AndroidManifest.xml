@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="just.trust.me" >
+    package="me.star.webview" >
 
     <application
         android:allowBackup="true"
@@ -14,6 +14,6 @@
             android:value="30"/>
         <meta-data
             android:name="xposeddescription"
-            android:value="Kills SSL certificate validation"/>
+            android:value="Debug WebView"/>
     </application>
 </manifest>
