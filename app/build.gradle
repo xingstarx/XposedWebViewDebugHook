@@ -11,12 +11,20 @@ android {
         versionName '1.0.0'
     }
 
+    signingConfigs {
+        release {
+            storeFile file("./keystore/key")
+            storePassword "admin123"
+            keyAlias "hello"
+            keyPassword "admin123"
+        }
+    }
+
     buildTypes {
         release {
             minifyEnabled false
+            signingConfig signingConfigs.release
         }
-    }
-    productFlavors {
     }
 }
 
